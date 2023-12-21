@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 500vh;
+}
+
+.one{
+    background: rgb(255, 241, 236);
+    border-bottom: 1px solid orangered;
+}
+.two{
+    color: rgb(209, 58, 3);
+    font-family:sans-serif;
+    padding-top: 30px;
+    margin-left: 140px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.three{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+    font-size: large;
+    font-weight:lighter;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.four{
+    display: flex;
+}
+.five{
+    display: flex;
+    background-color: orangered;
+    width: 50%;
+    color: white;
+    font-weight:lighter;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.six button{
+    color: white;
+    font-weight:lighter;
+    font-size: 17px;
+    font-family: sans-serif;
+    /* border-bottom-width: 20px; */
+}
+
+.six,button:hover{
+    /* background: rgb(255, 185, 160); */
+    background-blend-mode: overlay;
+    cursor: pointer;
+}
+
+.seven{
+    display: flex;
+    color: rgb(79, 77, 77);
+}
+
+.eightt::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    margin-top: 20px;
+}
+
+.eightt:hover::after{
+    width: 100%;
+}
+
+.eightt:hover{
+    cursor: pointer;
+}
+
+.eighte::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    margin-top: 20px;
+}
+
+.eighte:hover::after{
+    width: 100%;
+}
+
+.eighte:hover{
+    cursor: pointer;
+}
+.eightte::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    margin-top: 20px;
+}
+
+.eightte:hover::after{
+    width: 100%;
+}
+
+.eightte:hover{
+    cursor: pointer;
+}
+
+.eighttee::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    margin-top: 20px;
+}
+
+.eighttee:hover::after{
+    width: 100%;
+}
+
+.eighttee:hover{
+    cursor: pointer;
+}
+
+.eight::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: orangered;
+    margin-top: 20px;
+}
+
+.eight:hover::after{
+    width: 100%;
+}
+
+.eight:hover{
+    cursor: pointer;
+}
+
+.dropdown-items li{
+    list-style: none;
+}
+
+.eightt{
+    position: relative;
+    display: inline-block;  
+}
+.eighte{
+    position: relative;
+    display: inline-block;  
+}
+.eightte{
+    position: relative;
+    display: inline-block;  
+}
+.eighttee{
+    position: relative;
+    display: inline-block;  
+}
+
+.dropdown-items{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 450px;
+    height: 550px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.eightt:hover .dropdown-items {
+    margin-top: 23px;
+    display: block;
+  }
+
+.eighttee:hover .dropdown-items {
+    margin-top: 23px;
+    display: block;
+  }
+
+.eighte:hover .dropdown-items {
+    margin-top: 23px;
+    display: block;
+  }
+
+.eightte:hover .dropdown-items {
+    margin-top: 23px;
+    display: block;
+  }
+
+.dropdown-items button:hover{
+    color: orangered;
+    border: orangered;
+}  
+
+
+.nine{
+    background-image: url(./image/GTCO-Same-orange-ad.jpeg);
+    background-repeat: no-repeat;
+}
+.ten{
+    padding-top: 40px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    display: block;
+}
+
+.eleven {
+    padding: 20px;
+    width: 150px;
+    color: white;
+    border: none;
+    background-color: rgb(207, 61, 8);
+    margin-top: 40px;
+}
+
+.twelve{
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.fourteen{
+    color: orangered;
+}
+
+.fourteen::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: orangered;
+    margin: auto;
+}
+
+
+
+.fifteen::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: orangered;
+    margin: auto;
+    /* margin-top: 20px; */
+    transition: 0.3s;
+}
+
+.fifteen:hover:after{
+    width: 100%;
+}
+
+.fifteen:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.sixteen{
+    border: none;
+    padding-left: 26px;
+    background-color: rgb(226, 226, 226);
+    padding-top: 20px;
+}
+
+.eighteen{
+    display: flex;
+    margin-top: 40px;
+}
+
+.eighteenn{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.nameall{
+    background-color: rgb(241, 238, 238);
+}
+
+.shali{
+    display: flex;
+}
+
+.pepsi{
+    background-color: rgb(219, 217, 217);
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    color: black;
+    margin-left: 560px;
+    margin-top: 80px;
+}
+
+.twenty{
+    display: flex;
+}
+
+.twenty i:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.thirty{
+    display: block;
+}
+
+.sharp{
+    display: flex;
+}
+
+.past{
+    display: flex;
+    color: rgb(43, 42, 42);
+}
+
+.past{
+    font-weight: lighter;
+    font-size: 12px;
+    color:  rgb(79, 77, 77);
+}
+
+.taller{
+    margin-top: 30px;
+    display: flex;
+}
+
+.last{
+    padding: 50px;
+    background-color: rgb(86, 85, 85);
+    display: flex;
+    margin-top: 30px;
+}
+
+.lasty:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.buttn{
+    border-radius: 50px; 
+    padding: 20px;
+    border: none;
+    background-color: orangered;
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+}
+
+.buttn h3{
+    display: none;
+}
+
+.buttn:hover h3 {
+    display: flex;
+    margin-left: 10px;
+    transition:0.3s;
+    border-radius: 50px;
+}
+
